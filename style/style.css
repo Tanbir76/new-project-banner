@@ -200,7 +200,69 @@ height: 100%;
 border-radius: 50%;
 border: 10px solid rgb(247, 239, 239);
 }
+/* best-offer-card-style-end-here  */
+/*  holyday-sale-card-start-style  */
+#holyday-card{
+	border: 2px solid red;
+	margin: 0 auto;
+		width: 1320px;
+height: 986.07px;
+background-image: url(../images/Rectangle\ 2.png);
+background-repeat:no-repeat ;
+background-position: bottom;
+/* background-color: red; */
+/* position: absolute;  */
+/* z-index: 1; */
+position: relative;
 
-.semple-text{
-	
+}
+.holyday-offer-card{
+	text-align: center;
+}
+.holyday-offer-card h4{
+	font-size: 24px;
+font-weight: 500;
+}
+.holyday-offer-card p{
+	font-size: 20px;
+font-weight: 500;
+}
+.holyday-offer-card h1{
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+}
+.best-offer-rewards{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/* background-color:red;
+	position: absolute;
+	top: 90%; */
+}
+.gift-box{
+	width: 796.46px;
+	height: 662.07px;
+}
+.gift-box img{
+	width: 100%;
+	height: 100%;
+	margin-top: 100px;
+}
+.girl-gift{
+	width: 523px;
+	height: 662.07px;
+}
+.girl-gift img{
+width: 100%;
+height: 100%;
+margin-bottom: 100px;
+
+}
+.discount{
+	position: absolute;
+	bottom: 30%;
+	left: 45%;
+	z-index: 1;
 }
