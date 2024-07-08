@@ -18,6 +18,7 @@ background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 border-radius: 16px;
+margin-bottom: 100px;
 }
 .banner-content{
 	display: flex;
@@ -36,4 +37,170 @@ font-weight: 400;
 	font-size: 72px;
 font-weight: 900;
 text-align: center;
+}
+/* banner-offer-card-design start */
+.new-offers{
+	width: 802.9px;
+height: 806px;
+margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.offer-content{
+	margin-top: 10px;
+}
+.offer-content h1{
+	font-size: 88px;
+font-weight: 700;
+color: rgb(255, 0, 0);
+
+
+}
+.offer-content p{
+	font-size: 24px;
+font-weight: 500;
+}
+.offer-content h3{
+	font-size: 48px;
+font-weight: 700;
+}
+.offer-image{
+	width: 802.9px;
+height: 500px;
+margin-top: 48px;
+}
+.offer-image img{
+	width:100%;
+	height: 100%;
+}
+/* banner-offer-card-design end */
+/* Welcome midnight party card is design start here */
+.midnight-party-card{
+		margin: 0 auto;
+	width: 1320px;
+	height: 600px;
+	background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Vectorrr.png);
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.party-content{
+color: white;
+margin: 126px;
+}
+.party-content h1{
+/* margin:126px 252px 298px 126px ; */
+font-size: 64px;
+font-weight: 900;
+}
+.party-content p{
+	font-size: 18px;
+font-weight: 400;
+margin-top: 15px;
+/* margin:326px 497px 214px 126px ; */
+}
+.party-content h5{
+	font-size: 20px;
+font-weight: 700;
+margin-top: 20px;
+margin-left: 20px;
+}
+.party-image{
+	width: 319.83px;
+height: 464.66px;
+/* margin: 138px; */
+margin-right: 138px;
+
+}
+/* Welcome midnight party card is design end here */
+/* time card style now  */
+.invite-time{
+	margin: 0 auto;
+		width: 1320px;
+	height: 482px;border-radius: 16px;
+	background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+	margin-bottom: 100px;
+}
+.invite-card-content{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height:500px;
+}
+.invite-card-content h3{
+	font-size: 32px;
+font-weight: 600;
+margin-bottom: 30px;
+}
+.red-color{
+	color: red;
+}
+
+#white-btn{
+	border-radius: 8px;
+background: rgb(255, 0, 0);
+width: 167px;
+height: 56px;
+margin-top: 5opx;
+}
+.white{
+	color: white;
+	font-size: 20px;
+font-weight: 700;
+
+}
+/* time card style end  */
+/* best-offer-card-style-start-here  */
+.best-offer-card{
+	width: 1320px;
+	height: 463px;
+margin: 0 auto;
+
+
+}
+.best-offer-card-container{
+	display: flex;
+/* flex-direction: row; */
+justify-content:space-around;
+align-items: center;
+margin: 50px 50px;
+margin-top: 50px;
+}
+
+.heden1{
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.heden2{
+	font-size: 48px;
+font-weight: 900;
+}
+.heden3{
+	font-size: 20px;
+font-weight: 400;
+}
+.masti-image{
+	width: 364.84px;
+height: 364.84px;
+border-radius: 50%;
+border: 10px solid rgb(202, 21, 21);
+
+}
+.masti-image img{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+border: 10px solid rgb(247, 239, 239);
+}
+
+.semple-text{
+	
 }
