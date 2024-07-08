@@ -203,7 +203,6 @@ border: 10px solid rgb(247, 239, 239);
 /* best-offer-card-style-end-here  */
 /*  holyday-sale-card-start-style  */
 #holyday-card{
-	border: 2px solid red;
 	margin: 0 auto;
 		width: 1320px;
 height: 986.07px;
@@ -214,6 +213,7 @@ background-position: bottom;
 /* position: absolute;  */
 /* z-index: 1; */
 position: relative;
+margin-bottom: 100px;
 
 }
 .holyday-offer-card{
@@ -266,3 +266,50 @@ margin-bottom: 100px;
 	left: 45%;
 	z-index: 1;
 }
+/*  holyday-sale-card-start-style  */
+
+/* portfolio-style-start  */
+.portfolio-card{
+	width: 1320px;
+height: 1163px;
+margin: 0 auto;
+
+}
+.portfolio-card-text h4{
+	font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.portfolio-card-text h1{
+	font-family: Merriweather;
+	font-size: 48px;
+	font-weight: 900;
+}
+.portfolio-card-text p{
+	font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+.portfolio-card-text{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.items{
+	width: 424px;
+height: 450px;
+border-radius: 16px;
+
+
+
+}
+.items img{
+	width: 100%;
+	height: 100%;
+}
+.portfolio-images{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 10px;
+}
+/* portfolio-style-start  */
